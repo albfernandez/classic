@@ -1,0 +1,7 @@
+
+ 1002  git clone git@github.com:luiz158/classic.git
+ 1003  cd classic/
+ 1010  git fetch origin
+ 1013  git co WildFly8
+ 1014  git status
+
