@@ -5,3 +5,15 @@
  1013  git co WildFly8
  1014  git status
 
+ 1018  vim como-fazer.txt
+ 1019  git add como-fazer.txt 
+ 1020  git commit -am 'pegar branch WildFly.... '
+ 1021  cp como-fazer.txt /tmp/
+ 1022  git push
+ 1023  git co master
+ 1024  ls -tlra
+ 1025  cp /tmp/como-fazer.txt .
+ 1026  git add como-fazer.txt 
+ 1027  git commit -am 'pegar branch WildFly.... '
+ 1028  git push
+ 
