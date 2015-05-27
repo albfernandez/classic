@@ -1,0 +1,24 @@
+ 1102  git  status
+ 1103  git commit -am 'mudando pom.xml.... '
+ 1104  git push
+ 1105  git status
+ 1106  cd impl/
+ 1110  mvn clean install -DskipTests=true
+ 1111  cd ..
+ 1112  mvn install -DskipTests=true
+ 1113  ls -ltra
+ 1114  ls -als impl/
+ 1115  ls -als impl/target/
+ 1116  cp /home/luiz/.m2/settings.xml .
+ 1117  ls
+ 1118  git add settings.xml 
+ 1119  git commit -am 'adicionando settings.xml para maven.... '
+ 1120  git push
+ 1121  cd examples/
+ 1123  cd registration-war/
+ 1125  mvn package
+ 1127  ls -ltra target/
+ 1130  cd ..
+ 1132  cd registration
+ 1134  mvn package
+
